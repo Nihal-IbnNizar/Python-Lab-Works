@@ -10,7 +10,10 @@ x = Person("Muhammed","Nihal")
 x.printname()
     
 class Student(Person):
-    pass
+    def __init__(self,fname,lname,age):
+        super().__init__(fname,lname)
+        self.age = age
 
-x = Student("Majo","Augustine")
+x = Student("Majo","Augustine",22)
 x.printname()
+print(x.age)
