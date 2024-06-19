@@ -9,5 +9,5 @@
 # file = open("test.txt","r")       read
 # print(file.read())
 
-import os
+import os                       #delete
 os.remove("test.txt")
